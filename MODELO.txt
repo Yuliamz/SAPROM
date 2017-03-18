@@ -1,0 +1,1 @@
+vamos a trabajar con el modelo iterativo ya que el software se va a trabajar por modulos
