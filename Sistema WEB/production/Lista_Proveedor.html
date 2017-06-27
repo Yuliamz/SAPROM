@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Lista de Proveedores</title>
+
+    <!-- Bootstrap -->
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link href="../vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+    <!-- Datatables -->
+    <link href="../vendors/datatables.net-bs/css/dataTables.bootstrap.min.css" rel="stylesheet">
+    <link href="../vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css" rel="stylesheet">
+    <link href="../vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css" rel="stylesheet">
+    <link href="../vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css" rel="stylesheet">
+    <link href="../vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="../build/css/custom.min.css" rel="stylesheet">
+  </head>
+
+  <body class="nav-md">
+    <div class="container body">
+      <div class="main_container">
+        <div class="col-md-3 left_col">
+          <div class="left_col scroll-view">
+            <div class="navbar nav_title" style="border: 0;">
+              <a href="index.html" class="site_title"><i class="fa fa-user"></i> <span>SAPROM</span></a>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <!-- menu profile quick info -->
+            <div class="profile clearfix">
+              <div class="profile_pic">
+                <img src="images/img.jpg" alt="..." class="img-circle profile_img">
+              </div>
+              <div class="profile_info">
+                <span>Bienvenido,</span>
+                <h2>Alexander Verdugo</h2>
+              </div>
+            </div>
+            <!-- /menu profile quick info -->
+
+            <br />
+
+            <!-- sidebar menu -->
+           <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                        <div class="menu_section">
+                            <ul class="nav side-menu">
+                                <li><a><i class="fa fa-users"></i> Usuarios <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="index.html">Lista</a></li>
+                                        <li><a href="index2.html">Añadir</a></li>
+                                        <li><a href="index3.html">Recuperar Contraseña</a></li>
+                                    </ul>
+                                </li>
+                                <li><a><i class="fa fa-user"></i> Clientes <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="form.html">Lista</a></li>
+                                        <li><a href="form1.html">Añadir</a></li>
+                                        <li><a href="form_advanced.html">Modificar</a></li>
+                                        <li><a href="form_validation.html">Eliminar</a></li>
+                                        <li><a href="form_wizards.html">Reporte</a></li>
+                                    </ul>
+                                </li>
+                                <li><a><i class="fa fa-desktop"></i> Ventas <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="general_elements.html">General Elements</a></li>
+                                        <li><a href="media_gallery.html">Media Gallery</a></li>
+                                        <li><a href="typography.html">Typography</a></li>
+                                        <li><a href="icons.html">Icons</a></li>
+                                        <li><a href="glyphicons.html">Glyphicons</a></li>
+                                        <li><a href="widgets.html">Widgets</a></li>
+                                        <li><a href="invoice.html">Invoice</a></li>
+                                        <li><a href="inbox.html">Inbox</a></li>
+                                        <li><a href="calendar.html">Calendar</a></li>
+                                    </ul>
+                                </li>
+                                <li><a><i class="fa fa-industry"></i> Producción <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="Registrar_Produccion.html">Registrar Producción</a></li>
+                                        <li><a href="Reporte_Produccion.html">Reporte</a></li>
+                                        <li><a>Proveedores<span class="fa fa-chevron-down"></span></a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu"><a href="Lista_Proveedor.html">Lista</a></li>
+                                                <li><a href="A%C3%B1adir_Proveedor.html">Añadir</a></li>
+                                                <li><a href="#level2_1">Modificar</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a>Materiales<span class="fa fa-chevron-down"></span></a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu"><a href="Lista_Material.html">Lista</a></li>
+                                                <li><a href="A%C3%B1adir_Material.html">Añadir</a></li>
+                                                <li><a href="#level2_1">Modificar</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a>Productos<span class="fa fa-chevron-down"></span></a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu"><a href="Lista_Producto.html">Lista</a></li>
+                                                <li><a href="A%C3%B1adir_Producto.html">Añadir</a></li>
+                                                <li><a href="#level2_1">Modificar</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a><i class="fa fa-user"></i> Personal <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="chartjs.html">Chart JS</a></li>
+                                        <li><a href="chartjs2.html">Chart JS2</a></li>
+                                        <li><a href="morisjs.html">Moris JS</a></li>
+                                        <li><a href="echarts.html">ECharts</a></li>
+                                        <li><a href="other_charts.html">Other Charts</a></li>
+                                    </ul>
+                                </li>
+                                <li><a><i class="fa fa-clone"></i>Parametrizacion <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="fixed_sidebar.html">Fixed Sidebar</a></li>
+                                        <li><a href="fixed_footer.html">Fixed Footer</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+            <!-- /sidebar menu -->
+
+            <!-- /menu footer buttons -->
+            <div class="sidebar-footer hidden-small">
+              <a data-toggle="tooltip" data-placement="top" title="Settings">
+                <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+                <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="Lock">
+                <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="Logout" href="index.html">
+                <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+              </a>
+            </div>
+            <!-- /menu footer buttons -->
+          </div>
+        </div>
+
+        <!-- top navigation -->
+        <div class="top_nav">
+          <div class="nav_menu">
+            <nav>
+              <div class="nav toggle">
+                <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+              </div>
+
+              <ul class="nav navbar-nav navbar-right">
+                <li class="">
+                  <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                    <img src="images/img.jpg" alt="">Alexander Verdugo
+                    <span class=" fa fa-angle-down"></span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-usermenu pull-right">
+                    <li><a href="javascript:;">Perfil</a></li>
+                    <li><a href="javascript:;">Cambiar contraseña</a></li>
+                    <li><a href="index.html"><i class="fa fa-sign-out pull-right"></i>Cerrar sesión</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!-- /top navigation -->
+
+        <!-- page content -->
+        <div class="right_col" role="main">
+                <div class="">
+                    <div class="page-title">
+                        <div class="title_left">
+                            <h3>Lista de Proveedores</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                       <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="x_panel">
+                  <div class="x_content">
+                    <p class="text-muted font-13 m-b-30">
+                      Puede copiar los datos en el portapapeles, generar un archivo de Excel, o imprimirlos
+                    </p>
+                    <table id="datatable-buttons" class="table table-striped table-bordered">
+                      <thead>
+                        <tr>
+                          <th>Nombre</th>
+                          <th>Apellido</th>
+                          <th>Celular</th>
+                          <th>Email</th>
+                          <th>Departamento</th>
+                          <th>Municipio</th>
+                        </tr>
+                      </thead>
+
+
+                      <tbody>
+                        <tr>
+                          <td>Santiago</td>
+                          <td>Rodríguez</td>
+                          <td>3132564030</td>
+                          <td>farcissiu@adobassem.gov</td>
+                          <td>Boyacá</td>
+                          <td>Tunja</td>
+                        </tr>
+                        <tr>
+                          <td>Mateo</td>
+                          <td>Gómez</td>
+                          <td>3135957675</td>
+                          <td>desembarguessiu@furonaran.org</td>
+                          <td>Boyacá</td>
+                          <td>Tunja</td>
+                        </tr>
+                        <tr>
+                          <td>Sebastian</td>
+                          <td>López</td>
+                          <td>3176494311</td>
+                          <td>contrariejareu@rabasta.com</td>
+                          <td>Cundinamarca</td>
+                          <td>Bogotá</td>
+                        </tr>
+                        <tr>
+                          <td>Nicolas</td>
+                          <td>González</td>
+                          <td>3151082248</td>
+                          <td>embarracaries@corteig.net</td>
+                          <td>Boyacá</td>
+                          <td>Sogamoso</td>
+                        </tr>
+                        <tr>
+                          <td>Daniel</td>
+                          <td>García</td>
+                          <td>3182798667</td>
+                          <td>embotisseu@oferiren.gov</td>
+                          <td>Cundinamarca</td>
+                          <td>Bogotá</td>
+                        </tr>
+                        <tr>
+                          <td>Martín</td>
+                          <td>Ramírez</td>
+                          <td>3116779884</td>
+                          <td>embotxi@penjolades.org</td>
+                          <td>Boyacá</td>
+                          <td>Sogamoso</td>
+                        </tr>
+                        <tr>
+                          <td>Emiliano</td>
+                          <td>Martínez</td>
+                          <td>3174516610</td>
+                          <td>desesmussas@desarrissau.org</td>
+                          <td>Boyacá</td>
+                          <td>Chivor</td>
+                        </tr>
+                        <tr>
+                          <td>Leonardo</td>
+                          <td>Hernández</td>
+                          <td>3168087285</td>
+                          <td>desmescla@incitadora.com</td>
+                          <td>Boyacá</td>
+                          <td>Paipa</td>
+                        </tr>
+                        <tr>
+                          <td>Álvaro</td>
+                          <td>Díaz</td>
+                          <td>3162273342</td>
+                          <td>descomprimissis@descuidares.net</td>
+                          <td>Boyacá</td>
+                          <td>Chita</td>
+                        </tr>
+                        <tr>
+                          <td>Alonso</td>
+                          <td>Pérez</td>
+                          <td>3133299944</td>
+                          <td>camforessis@albergarien.es</td>
+                          <td>Boyacá</td>
+                          <td>Paipa</td>
+                        </tr>
+                        <tr>
+                          <td>Miguel</td>
+                          <td>Torres</td>
+                          <td>3191767162</td>
+                          <td>desficiosos@gabinya.gov</td>
+                          <td>Boyacá</td>
+                          <td>Chiscas</td>
+                        </tr>
+                        <tr>
+                          <td>Fernando</td>
+                          <td>Rojas</td>
+                          <td>3130159023</td>
+                          <td>furans@reivindicas.org</td>
+                          <td>Boyacá</td>
+                          <td>Socha</td>
+                        </tr>
+                        <tr>
+                          <td>Sofía</td>
+                          <td>Vargas</td>
+                          <td>3141055270</td>
+                          <td>carricolina@borrull.eu</td>
+                          <td>Boyacá</td>
+                          <td>Socha</td>
+                        </tr>
+                        <tr>
+                          <td>Haley</td>
+                          <td>Moreno</td>
+                          <td>3115811664</td>
+                          <td>desembrossat@mesopotami.org</td>
+                          <td>Boyacá</td>
+                          <td>Oicata</td>
+                        </tr>
+                        <tr>
+                          <td>Tatiana</td>
+                          <td>Gutiérrez</td>
+                          <td>3142393994</td>
+                          <td>desarrufi@sustentacle.com</td>
+                          <td>Boyacá</td>
+                          <td>Oicata</td>
+                        </tr>
+                        <tr>
+                          <td>Michael</td>
+                          <td>Jiménez</td>
+                          <td>3158524154</td>
+                          <td>hospitalitzassis@acoquinesses.org</td>
+                          <td>Boyacá</td>
+                          <td>Chivata</td>
+                        </tr>
+                        <tr>
+                          <td>Paul</td>
+                          <td>Muñoz</td>
+                          <td>3150446695</td>
+                          <td>retrovenguessem@incomplixen.org</td>
+                          <td>Boyacá</td>
+                          <td>Leiva</td>
+                        </tr>
+                        <tr>
+                          <td>Gloria</td>
+                          <td>Castro</td>
+                          <td>3166206607</td>
+                          <td>ostensiu@vergasseges.net</td>
+                          <td>Boyacá</td>
+                          <td>Pachavita</td>
+                        </tr>
+                        <tr>
+                          <td>Bradley</td>
+                          <td>Ortiz</td>
+                          <td>3145849323</td>
+                          <td>terpenoides@aillar.net</td>
+                          <td>Boyacá</td>
+                          <td>Campohermoso</td>
+                        </tr>
+                        <tr>
+                          <td>María</td>
+                          <td>Álvarez</td>
+                          <td>3123706244</td>
+                          <td>guilloixaves@escotxinarem.net</td>
+                          <td>Boyacá</td>
+                          <td>Tenza</td>
+                        </tr>
+                        <tr>
+                          <td>Janette</td>
+                          <td>Suárez</td>
+                          <td>3142318520</td>
+                          <td>angelicassis@desmotes.eu</td>
+                          <td>Boyacá</td>
+                          <td>Combita</td>
+                        </tr>
+                        <tr>
+                          <td>Yuri</td>
+                          <td>Herrera</td>
+                          <td>3130978113</td>
+                          <td>constrenyerieu@desllodriguessis.net</td>
+                          <td>Boyacá</td>
+                          <td>Toca</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+                       
+                    </div>
+                    </div>
+                </div>
+            </div>
+        <!-- /page content -->
+
+        <!-- footer content -->
+        <footer>
+          <div class="pull-right">
+            SAPROM© 2017 
+          </div>
+          <div class="clearfix"></div>
+        </footer>
+        <!-- /footer content -->
+      </div>
+
+
+    <!-- jQuery -->
+    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="../vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="../vendors/nprogress/nprogress.js"></script>
+    <!-- iCheck -->
+    <script src="../vendors/iCheck/icheck.min.js"></script>
+    <!-- Datatables -->
+    <script src="../vendors/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="../vendors/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+    <script src="../vendors/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+    <script src="../vendors/datatables.net-buttons-bs/js/buttons.bootstrap.min.js"></script>
+    <script src="../vendors/datatables.net-buttons/js/buttons.flash.min.js"></script>
+    <script src="../vendors/datatables.net-buttons/js/buttons.html5.min.js"></script>
+    <script src="../vendors/datatables.net-buttons/js/buttons.print.min.js"></script>
+    <script src="../vendors/datatables.net-fixedheader/js/dataTables.fixedHeader.min.js"></script>
+    <script src="../vendors/datatables.net-keytable/js/dataTables.keyTable.min.js"></script>
+    <script src="../vendors/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="../vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js"></script>
+    <script src="../vendors/datatables.net-scroller/js/dataTables.scroller.min.js"></script>
+    <script src="../vendors/jszip/dist/jszip.min.js"></script>
+    <script src="../vendors/pdfmake/build/pdfmake.min.js"></script>
+    <script src="../vendors/pdfmake/build/vfs_fonts.js"></script>
+
+    <!-- Custom Theme Scripts -->
+    <script src="../build/js/custom.min.js"></script>
+  </body>
+</html>
